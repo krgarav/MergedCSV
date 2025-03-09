@@ -13,6 +13,6 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(builtPath, "index.html"));
 });
 
-app.listen(5000, () => {
+app.listen(4000, () => {
   console.log("server is running on port 5000");
 });
